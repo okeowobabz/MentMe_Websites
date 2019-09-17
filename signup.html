@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Blog Homepage</title>
+    </head>
+    <body>
+        
+        <header>
+            <img src="images/mentme.png" alt=logo>
+            <h2>MentMe Blog</h2>
+            <em>Home of Information</em>
+            <nav>
+                <a href="index.html">Home|</a>
+                <a href="aboutus.html">About|</a>
+                <a href="faq.html">FAQ|</a>
+                <a href="login.html">Login|</a>
+                <a href="">Register|</a>
+                <a href="contactus.html">Contact</a>
+            </nav>
+        </header>
+        
+        <hr>
+
+            <h2>Sign Up</h2>
+        <hr>
+
+        
+        <div>
+            <h2>Create an Account</h2>
+            <form action="" method="POST" >
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <label for="Fullname">Fullname: </label>
+                    <input type="text" name="Fullname" placeholder="Your Fullname"><br><br>
+                    <label for="Lastname">Lastname: </label>
+                    <input type="text" name="Lastname" placeholder="Your Lastname"><br><br>
+                    <div>
+                    <label for="Gender">Gender</label><br>
+                    <input type="radio" name="gender" value="Male">Male 
+                    <input type="radio" name="gender" value="Female">Female
+                    </div><br>
+                    <label for="Date of Birth">Date of Birth</label><br>
+                    <input type="date" name="Date of Birth">
+                    <br>
+                    <br>
+                    <div>
+                    <label>Select your interests</label>
+                    <ul>
+                    <li><input type="checkbox" name="interests" value="Music">Music</li>
+                    <li><input type="checkbox" name="interests" value="Comedy">Comedy</li>
+                    <li><input type="checkbox" name="interests" value="Showbiz">Showbiz</li>
+                    <li><input type="checkbox" name="interests" value="Education">Education</li>
+                    </ul>
+                    </div>
+                    <br>
+                    <label>Age Range:</label>
+                    <select name="Range">
+                            <option>--Select Age--</option>
+                    </select>
+                    <br>
+                    <br>
+                    <div>
+                    <label>Select Favourite Movies</label><br>
+                    <mark>Select more than one where applicable</mark><br>
+                    <select name="Movies"  multiple>	
+                        <optgroup label="Series">		
+                        <option>Game of Thrones</option>	
+                        <option>Money Heist</option>
+                        <option>Big Bang Theory</option>	
+                    </optgroup>
+                    </select>
+                    </div>
+                    <br>
+                    <label>Select Favourite Color</label><br>
+                    <input type="color" name="color">    
+                </fieldset>    
+            </form>
+
+            <form>
+                <fieldset>
+                    <legend>Account Details</legend>
+
+                    <label>Upload Profile picture<br>
+                    <mark>Pictures should not be more than 100kb</mark><br>
+                    <input type="file" name="photo">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="Username">Username:
+                    <input type="text" name="Username" placeholder="Your Username"></label>
+                    <br>
+                    <br>
+                    <label for="Password">Password:
+                    <input type="password" name="Password" placeholder="Your Password"></label>
+                    <br>
+                    <br>
+                    <label for="RPassword">Retype Password:
+                    <input type="password" name="RPassword" placeholder="Retype Password"></label>
+                    <br>
+                    <br>
+                    <label>Rate Us Now (0 to 10)<br>
+                    <input type="range" name="rating" min="0" max="10" step="1"></label>
+                    <br>
+                    <label><input type="checkbox" name="agreement" value="agree">
+                    I agree to your terms and conditions<br>
+                    <a href="">Click here</a> for terms and conditions.</label>
+                    <br>
+                    <br>
+                    <button>Sign Up</button>
+                    <button>Clear Data</button>
+                </fieldset>
+            </form>
+
+            <fieldset>
+                <legend>Disclaimer</legend>
+                <p>All informatin provided were given voluntary by the bearer of the above details</p>
+            </fieldset>
+        </div>
+
+        <footer>
+                <h3>Other Links</h3>
+                <ul>
+                    <li><a href="">Site Map</a></li>
+                    <li><a href="">Community</a></li>
+                    <li><a href="">Archives(90)</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+                <p>Coppyright &copy 2019<br><br> All right Reserved</p>
+            </footer>
+
+    </body>   
+</html>
